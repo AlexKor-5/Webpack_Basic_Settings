@@ -1,0 +1,25 @@
+1. create a folder "my-app"
+2. > cd my-app
+3. > npm init
+4. > npm install -D webpack webpack-cli --save-dev
+5. create folders and files src/index.js and public/index.html
+6. create file webpack.config.js
+7. set up: mode, entry point, output in webpack.config.js
+8. > npm i -D style-loader css-loader sass-loader --save-dev
+9. include the loaders in webpack.config.js
+10. > npm i -D html-webpack-plugin clean-webpack-plugin --save-dev
+11. include our plugins into plugins: in webpack.config.js
+12. > webpack  (just checking, everything should work)
+13. > npm i -D webpack-dev-server --save-dev
+14. include dev-server in webpack.config.js
+15. insert this line: ("start": "webpack-dev-server --open") into scripts part of package.json
+16. > npm start (web-server is to work)
+
+// React
+
+17. set up Babel (visit site of Babel, section Webpack)
+18. download preset of React (doc/presets/@babel/preset-react)
+19. download @babel/polyfill to make Babel work in a right manner
+20. > npm i react react-dom --save-dev
+21. create component, include and > npm start (React should work)
+
