@@ -29,6 +29,10 @@ module.exports = {
                         presets: ['@babel/preset-env']
                     }
                 }
+            },
+            {
+                test: /\.tsx?$/,
+                loader: "ts-loader"
             }
         ]
     },

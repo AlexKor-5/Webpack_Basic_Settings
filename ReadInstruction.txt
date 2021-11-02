@@ -23,3 +23,12 @@
 20. > npm i react react-dom --save-dev
 21. create component, include and > npm start (React should work)
 
+// Ts
+
+22. > npm i ts-loader --save-dev
+23. add tsconfig.json file
+24. > npm i typescript --save-dev
+25. npm install --save-dev "@babel/preset-typescript"
+26. > tsc --watch
+
+
